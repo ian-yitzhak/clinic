@@ -1,0 +1,32 @@
+.container{
+	padding: 50px;
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.FlexContainer div {
+    width: 200px;
+    height: 300px;
+    margin: 40px;
+    flex-grow: 1;
+	width: 33%;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;    
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
+}
+.form-group{
+    width: 40%;
+}
+.form-control{
+    border-color: black;
+}
